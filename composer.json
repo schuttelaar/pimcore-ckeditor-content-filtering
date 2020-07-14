@@ -1,0 +1,8 @@
+{
+    "name": "schuttelaar/pimcore-bundle-ckeditor-config",
+    "type": "pimcore-bundle",
+    "description": "Configuration for CKEditor to include CKEditor plugins for pasting from Word and other ACF rules",
+    "keywords": ["pimcore", "bundle", "ckeditor", "config", "plugins", "content", "filtering"],
+    "homepage": "https://schuttelaar-partners.com/",
+    "license": "LGPL-2.1-or-later"
+}
