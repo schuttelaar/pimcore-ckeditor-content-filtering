@@ -10,8 +10,8 @@ pimcore.document.tags.wysiwyg.defaultEditorConfig = {
     pasteFromWordPromptCleanup: false,
 };
 
-CKEDITOR.plugins.addExternal('notification', '/bundles/ckeditorconfig/js/plugins/notification/');
-CKEDITOR.plugins.addExternal('clipboard', '/bundles/ckeditorconfig/js/plugins/clipboard/');
-CKEDITOR.plugins.addExternal('pastetools', '/bundles/ckeditorconfig/js/plugins/pastetools/');
-CKEDITOR.plugins.addExternal('pastefromword', '/bundles/ckeditorconfig/js/plugins/pastefromword/');
-CKEDITOR.plugins.addExternal('blockquote', '/bundles/ckeditorconfig/js/plugins/blockquote/');
+CKEDITOR.plugins.addExternal('notification', '/bundles/ckeditorcfconfig/js/plugins/notification/');
+CKEDITOR.plugins.addExternal('clipboard', '/bundles/ckeditorcfconfig/js/plugins/clipboard/');
+CKEDITOR.plugins.addExternal('pastetools', '/bundles/ckeditorcfconfig/js/plugins/pastetools/');
+CKEDITOR.plugins.addExternal('pastefromword', '/bundles/ckeditorcfconfig/js/plugins/pastefromword/');
+CKEDITOR.plugins.addExternal('blockquote', '/bundles/ckeditorcfconfig/js/plugins/blockquote/');

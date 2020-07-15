@@ -1,5 +1,5 @@
 {
-  "name": "schuttelaar/pimcore-bundle-ckeditor-config",
+  "name": "schuttelaar/pimcore-ckeditor-content-filtering",
   "type": "pimcore-bundle",
   "description": "Configuration for CKEditor to include CKEditor plugins for pasting from Word and other ACF rules",
   "keywords": ["pimcore", "bundle", "ckeditor", "config", "plugins", "content", "filtering"],
@@ -7,7 +7,7 @@
   "license": "LGPL-2.1-or-later",
   "autoload": {
     "psr-4": {
-     "CKEditorConfigBundle\\": "src"
+     "CKEditorCFConfigBundle\\": "src"
     }
   }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace CKEditorConfigBundle\DependencyInjection;
+namespace CKEditorCFConfigBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -17,7 +17,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('ck_editor_config');
+        $treeBuilder = new TreeBuilder('ck_cf_editor_config');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

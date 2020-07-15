@@ -1,22 +1,22 @@
 <?php
 
-namespace CKEditorConfigBundle;
+namespace CKEditorCFConfigBundle;
 
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 
-class CKEditorConfigBundle extends AbstractPimcoreBundle
+class CKEditorCFConfigBundle extends AbstractPimcoreBundle
 {
     public function getEditmodeJsPaths()
     {
         return [
-            '/bundles/ckeditorconfig/js/pimcore/editmode.js'
+            '/bundles/ckeditorcfconfig/js/pimcore/editmode.js'
         ];
     }
 
     public function getJsPaths()
     {
         return [
-            '/bundles/ckeditorconfig/js/pimcore/startup.js'
+            '/bundles/ckeditorcfconfig/js/pimcore/startup.js'
         ];
     }
 }
