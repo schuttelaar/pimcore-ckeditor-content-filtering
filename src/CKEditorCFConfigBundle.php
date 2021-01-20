@@ -6,6 +6,14 @@ use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 
 class CKEditorCFConfigBundle extends AbstractPimcoreBundle
 {
+    public function getDescription() {
+        return 'CKEditor Content Filter';
+    }
+
+    public function getVersion() {
+        return 'v1.0.6';
+    }
+    
     public function getEditmodeJsPaths()
     {
         return [
