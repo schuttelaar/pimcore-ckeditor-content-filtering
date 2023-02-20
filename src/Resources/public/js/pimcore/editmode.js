@@ -9,20 +9,20 @@ let cfEditorConfig = {
     pasteFromWordPromptCleanup: false,
 };
 
-if (pimcore.document.tags.wysiwyg.defaultEditorConfig) {
+if (pimcore.document.editables.wysiwyg.defaultEditorConfig) {
     // Make sure the local config has prio
-    pimcore.document.tags.wysiwyg.defaultEditorConfig = {
+    pimcore.document.editables.wysiwyg.defaultEditorConfig = {
         ...cfEditorConfig,
-        ...pimcore.document.tags.wysiwyg.defaultEditorConfig
+        ...pimcore.document.editables.wysiwyg.defaultEditorConfig
     };
 } else {
     pimcore.document.tags.wysiwyg.defaultEditorConfig = cfEditorConfig;
 }
 
-if (pimcore.document.tags.wysiwyg.defaultEditorConfig.extraPlugins === undefined) {
-    pimcore.document.tags.wysiwyg.defaultEditorConfig.extraPlugins = [];
+if (pimcore.document.editables.wysiwyg.defaultEditorConfig.extraPlugins === undefined) {
+    pimcore.document.editables.wysiwyg.defaultEditorConfig.extraPlugins = [];
 }
-pimcore.document.tags.wysiwyg.defaultEditorConfig.extraPlugins.push('pastefromword');
+pimcore.document.editables.wysiwyg.defaultEditorConfig.extraPlugins.push('pastefromword');
 
 CKEDITOR.plugins.addExternal('notification', '/bundles/ckeditorcfconfig/js/plugins/notification/');
 CKEDITOR.plugins.addExternal('clipboard', '/bundles/ckeditorcfconfig/js/plugins/clipboard/');

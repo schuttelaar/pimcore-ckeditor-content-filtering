@@ -9,5 +9,8 @@
     "psr-4": {
      "CKEditorCFConfigBundle\\": "src"
     }
+  },
+  "require": {
+      "pimcore/pimcore": "^10.0"
   }
 }
