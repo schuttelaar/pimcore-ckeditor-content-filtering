@@ -16,7 +16,7 @@ if (pimcore.document.editables.wysiwyg.defaultEditorConfig) {
         ...pimcore.document.editables.wysiwyg.defaultEditorConfig
     };
 } else {
-    pimcore.document.tags.wysiwyg.defaultEditorConfig = cfEditorConfig;
+    pimcore.document.editables.wysiwyg.defaultEditorConfig = cfEditorConfig;
 }
 
 if (pimcore.document.editables.wysiwyg.defaultEditorConfig.extraPlugins === undefined) {
