@@ -143,7 +143,7 @@ CKEDITOR.stylesSet.add( 'styles', [
 
 #### editmode.js
 
-This code can also be used in `editmode.js` with one difference: replace `pimcore.object.tags.wysiwyg.defaultEditorConfig` with `pimcore.document.tags.wysiwyg.defaultEditorConfig` because `editmode.js` is used for setting the configuration for the document editor.
+This code can also be used in `editmode.js` with one difference: replace `pimcore.object.tags.wysiwyg.defaultEditorConfig` with `pimcore.document.editables.wysiwyg.defaultEditorConfig` because `editmode.js` is used for setting the configuration for the document editor.
 
 ## Links
 
