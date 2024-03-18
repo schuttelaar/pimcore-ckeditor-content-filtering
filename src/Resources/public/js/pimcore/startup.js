@@ -1,6 +1,6 @@
 // Default objects CKEditor config
 let cfEditorConfig = {
-    extraAllowedContent : '*[class];p(*){*}[*];div(*){*}[*];a(*){*}[*];img[alt,pimcore_id,pimcore_type,!src,align]{width,height,float}',
+    extraAllowedContent : '*[class];p(*){*}[*];div(*){*}[*];a(*){*}[*];img[alt,pimcore_id,pimcore_type,!src,align]{width,height,float};video(*){*}[*];source[src,type]',
     enterMode : CKEDITOR.ENTER_P,
     shiftEnterMode: CKEDITOR.ENTER_BR,
     format_tags: 'p;h1;h2;h3;h4;h5;h6;pre;address;div',

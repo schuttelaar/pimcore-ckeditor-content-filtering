@@ -11,7 +11,7 @@ class CKEditorCFConfigBundle extends AbstractPimcoreBundle
     }
 
     public function getVersion() {
-        return 'v1.1.2';
+        return 'v1.1.3';
     }
     
     public function getEditmodeJsPaths()
